@@ -377,7 +377,11 @@ def plot_animation(tsne_embeddings_per_epoch, all_epochs_labels, validation_sent
     )
 
     fig.frames = frames
-    fig.show()
+    
+    # === 변경된 부분 ===
+    # 일반 Python 스크립트 환경에서 인터랙티브 실행을 위해 HTML 파일로 내보냄
+    fig.write_html("tsne_plot.html", auto_open=True)
+    # ===============================================
 
 
 ## -------------------------------------------------
@@ -442,7 +446,7 @@ if __name__ == "__main__":
 
     # 옵티마이저, 스케줄러 설정
     optimizer = AdamW(model.parameters(), lr=2e-5, eps=1e-8)
-    epochs = 10
+    epochs = 5
     total_batch = len(train_dataloader) * epochs
     scheduler = get_linear_schedule_with_warmup(
         optimizer,
