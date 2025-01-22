@@ -1,0 +1,9 @@
+torch>=1.7.0
+transformers==4.44.2
+numpy==1.26.4
+scikit-learn==1.5.2
+keras_preprocessing==1.1.2
+pad_sequences==0.6.1
+plotly>=5.0.0
+tqdm==4.66.6
+pandas==2.2.2
