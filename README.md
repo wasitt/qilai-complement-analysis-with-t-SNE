@@ -13,4 +13,4 @@ pip install requirements.txt
 ## Analysis with ‘起来’
 python main.py
 
-## If use Colaboratory, please move all files to content/ file path.
+### ※ If use Colaboratory, please move all files to content/ file path.
