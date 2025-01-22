@@ -20,4 +20,5 @@ python main.py
 ### ※ If you use Colaboratory, please move all files to content/ file path.
 ### ※ You can watch 2d scatter plot as 'tsne_plot.html' file
 
-![image](https://github.com/user-attachments/assets/798a77ec-8256-433b-8df7-ef00b3875740)
+![image](https://github.com/user-attachments/assets/4ef7ab8d-efe8-47da-b71e-7e1cf0ba89e5)
+
